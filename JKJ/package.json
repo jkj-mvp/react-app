@@ -1,0 +1,28 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "A React development environment for my own needs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/applefreak/react-app-boilerplate.git"
+  },
+  "main": "index.js",
+  "author": "Po-Yu Chen",
+  "license": "MIT",
+  "scripts": {
+    "pack": "webpack -w --progress --color"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.18.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.2"
+  }
+}
